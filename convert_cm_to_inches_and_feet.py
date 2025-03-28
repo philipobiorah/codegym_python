@@ -16,6 +16,11 @@ inch_per_foot = 12
 # calculate the number of complete feet in the given height cm
 
 # convert height cm to inches
+inches = height_cm / cm_per_inch
+complete_foot = inches // inch_per_foot
 
+rem_inches = inches % inch_per_foot
+
+print(complete_foot, "'", rem_inches) 
 
 
