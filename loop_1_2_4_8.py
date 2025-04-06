@@ -13,4 +13,4 @@
 
 # Write your code here
 for i in range(0, 63):
-    print(i)
+    print("Square ",i+1,":", 2**i," grain")
