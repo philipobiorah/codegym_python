@@ -9,3 +9,8 @@ for i in range(3):
 else:
     print("No imput attempts letf or all passwords entered wrongly ")
     
+
+#nested loops
+for i in range(3):
+    for j in range(3):
+        print(f"{i},{j}")
